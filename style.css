@@ -1,13 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-body{
+
+body {
     background-color: white;
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -15,21 +17,25 @@ body{
     margin-top: 40vh;
     min-height: 100vh;
 }
-h1{
+
+h1 {
     font-size: 60px;
     font-weight: 600;
 }
-.static-text{
+
+.static-text {
     color: rgb(226, 233, 29);
 }
-.animated-text{
+
+.animated-text {
     color: rgb(233, 57, 57);
     font-size: 60px;
     font-weight: 200;
 }
+
 /* Style the cursor (blinking line) */
 .typed-cursor {
-    font-size: 60px; /* Adjust the font size to make it bigger */
-    color: rgb(233, 57, 57); /* Set the color to green */
+    font-size: 60px;
+    color: rgb(233, 57, 57);
     font-weight: normal;
 }
