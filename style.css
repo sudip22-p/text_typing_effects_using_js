@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: white;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 40vh;
+    min-height: 100vh;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.static-text{
+    color: rgb(226, 233, 29);
+}
+.animated-text{
+    color: rgb(233, 57, 57);
+    font-size: 60px;
+    font-weight: 200;
+}
+/* Style the cursor (blinking line) */
+.typed-cursor {
+    font-size: 60px; /* Adjust the font size to make it bigger */
+    color: rgb(233, 57, 57); /* Set the color to green */
+    font-weight: normal;
+}
